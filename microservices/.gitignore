@@ -1,0 +1,162 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
+# .gitignore for Java Spring Boot project using IntelliJ IDEA
+
+# Compiled source
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle
+build/
+
+# Gradle Wrapper
+!gradle/wrapper/gradle-wrapper.jar
+
+# Spring Boot
+spring.log
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+*.bak
+*.swp
+*~.nib
+*.old
+*.backup
+*.orig
+*.rej
+*.sublime-workspace
+
+# Sonar
+/.scannerwork/
+/.sonar/
+/.sonarlint/
+
+# IntelliJ IDEA
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!.idea/inspectionProfiles/Project_Default.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/dictionaries
+.idea/libraries
+
+# IDE directories
+.vscode/
+.idea/
+.eclipse/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Annotation processors cache
+.factorypath
+
+# Lombok generated files
+delombok/
+
+# Micronaut
+.build/
+
+# Log directory
+/logs
+
+# Mac system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Other
+temp
+tmp
+bin
+.env
+.env.*
+*.key
+*.pem
+*.p8
+*.txt
+
+# Ignore local environment settings
+.env
+.env.*
+
+# Other config files
+*.cfg
+*.ini
+*.properties
+*.xml
