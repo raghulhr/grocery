@@ -32,7 +32,7 @@ export const ProductInfo = () => {
         <StarRatings
           numberOfStars={5}
           rating={rating}
-          starRatedColor={rating>3?'#005F2D':rating<3&&rating>1.5?'#FFFF00':'#FF0000'}
+          starRatedColor={rating>3?'#005F2D':rating<3&&rating>1.5?'#FF0000':'#FFFF00'}
           starDimension='35px'
           starSpacing='2px'
         />

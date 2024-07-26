@@ -11,7 +11,7 @@
     <groupId>com.grocery</groupId>
     <artifactId>grocery-service-registry</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>rental-service-registry</name>
+    <name>grocery-service-registry</name>
     <description>grocery-service-registry</description>
     <url/>
     <licenses>
@@ -27,7 +27,7 @@
         <url/>
     </scm>
     <properties>
-        <java.version>21</java.version>
+        <java.version>17</java.version>
         <spring-cloud.version>2023.0.2</spring-cloud.version>
     </properties>
     <dependencies>
