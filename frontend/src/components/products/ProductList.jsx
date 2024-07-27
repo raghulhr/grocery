@@ -3,7 +3,7 @@ import { ProductService } from "../services/ProductService";
 import ProductCard from "./ProductCard";
 import { Link } from "react-router-dom";
 import './ProductList.scss';
-export const ProductList = () => {
+export const ProductList = ({searchValue}) => {
     const [products, setProducts] = useState([])
     useEffect(()=>{
         const fetchProducts = async () => {

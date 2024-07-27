@@ -1,0 +1,22 @@
+.category-card-container{
+    width: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.3s;
+    animation: ease-in;
+    justify-content: start;
+    cursor: pointer;
+
+    .category-image-container img{
+        overflow: hidden;
+        width: 100px;
+        height: 100px;
+    }
+
+    .category-card-title{
+        text-align: center;
+    }
+}
+.category-card-container:hover{
+    transform: scale(1.02);
+}
