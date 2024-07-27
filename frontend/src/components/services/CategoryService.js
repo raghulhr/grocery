@@ -4,7 +4,7 @@ import axios from 'axios';
 const Base_URL = 'https://fakestoreapi.com/products/categories';
 
 export class CategoryService{
-    static getAllCategoriess(){
+    static getAllCategories(){
         return axios.get(`${Base_URL}`);
     }
     

@@ -13,7 +13,6 @@ export const ProductInfo = () => {
   useEffect(() => {
     const fetchProduct = async () => {
       const res = await ProductService.getProductById(id);
-      console.log(res);
       const data = await res.data;
       setProduct(data);
       setRating(Number(data.rating.rate));
