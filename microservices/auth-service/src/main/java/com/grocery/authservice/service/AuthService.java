@@ -25,10 +25,10 @@ public class AuthService {
     JwtService jwtService;
 
     public String saveUser(User user) {
-//        UserType userType = userTypeRepository.findById(user.getUserType().getId())
-//                .orElseThrow(() -> new IllegalArgumentException("Invalid user type ID"));
+        UserType userType = userTypeRepository.findById(user.getUserType().getId())
+                .orElseThrow(() -> new IllegalArgumentException("Invalid user type ID"));
         user.setPassword(passwordEncoder.encode(user.getPassword()));
-        //user.setUserType(userType);
+        user.setUserType(userType);
         userRepository.save(user);
 
         return "User successfully added";
@@ -41,4 +41,5 @@ public class AuthService {
     public void validateToken(String token) {
         jwtService.validateToken(token);
     }
+    
 }

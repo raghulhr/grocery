@@ -23,4 +23,22 @@ public class UserType {
     @Column(name = "user_type", nullable = false, length = 50)
     private String userType;
 
+	public String getUserType() {
+		return userType;
+	}
+
+	public void setUserType(String userType) {
+		this.userType = userType;
+	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	
+
 }
