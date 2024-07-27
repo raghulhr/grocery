@@ -158,5 +158,3 @@ bin
 # Other config files
 *.cfg
 *.ini
-*.properties
-*.xml
