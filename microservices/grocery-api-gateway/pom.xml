@@ -11,7 +11,7 @@
     <groupId>com.grocery</groupId>
     <artifactId>grocery-api-gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>rental-api-gateway</name>
+    <name>grocery-api-gateway</name>
     <description>grocery-api-gateway</description>
     <url/>
     <licenses>

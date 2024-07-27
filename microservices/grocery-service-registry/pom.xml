@@ -11,7 +11,7 @@
     <groupId>com.grocery</groupId>
     <artifactId>grocery-service-registry</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>rental-service-registry</name>
+    <name>grocery-service-registry</name>
     <description>grocery-service-registry</description>
     <url/>
     <licenses>
