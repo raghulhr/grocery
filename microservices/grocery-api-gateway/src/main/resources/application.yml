@@ -17,7 +17,7 @@ spring:
               - OPTIONS
       routes:
         - id: auth-service
-          uri: lb://AUTH-SERVICE
+          uri: lb://auth-service
           predicates:
             - Path=/auth/**
         - id: product-service
